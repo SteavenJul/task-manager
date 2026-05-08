@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2cm;
+}
+h1{
+    color: #2c3e50;
+}
+input{
+    padding: 5px;
+}
+#add-btn{
+    background-color: bisque;
+    text-align: center;
+    border-radius: 2px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
